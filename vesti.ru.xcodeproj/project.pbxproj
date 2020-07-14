@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00286383FBEE65A2BD2CB3D7 /* Pods_vesti_ru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC42720F083A217B3C9E262 /* Pods_vesti_ru.framework */; };
 		FC51669924B4919300DAA1EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC51669824B4919300DAA1EE /* AppDelegate.swift */; };
 		FC51669B24B4919300DAA1EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC51669A24B4919300DAA1EE /* SceneDelegate.swift */; };
 		FC51669D24B4919300DAA1EE /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC51669C24B4919300DAA1EE /* NewsFeedViewController.swift */; };
@@ -24,8 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3AEA7297D8952B9CBBA63662 /* Pods-vesti.ru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vesti.ru.release.xcconfig"; path = "Target Support Files/Pods-vesti.ru/Pods-vesti.ru.release.xcconfig"; sourceTree = "<group>"; };
-		8FC42720F083A217B3C9E262 /* Pods_vesti_ru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vesti_ru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC51669524B4919300DAA1EE /* ВЕСТИ.RU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ВЕСТИ.RU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC51669824B4919300DAA1EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC51669A24B4919300DAA1EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +38,6 @@
 		FC5166D724B8A5C400DAA1EE /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = News.swift; path = vesti.ru/Controllers/News.swift; sourceTree = SOURCE_ROOT; };
 		FC5166D924BB1FCE00DAA1EE /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoriesViewController.swift; path = vesti.ru/Model/CategoriesViewController.swift; sourceTree = SOURCE_ROOT; };
 		FC5166DB24BB6F2B00DAA1EE /* AppLaunchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppLaunchingViewController.swift; path = vesti.ru/Views/AppLaunchingViewController.swift; sourceTree = SOURCE_ROOT; };
-		FD63EDF89BD0C520EC9F4925 /* Pods-vesti.ru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vesti.ru.debug.xcconfig"; path = "Target Support Files/Pods-vesti.ru/Pods-vesti.ru.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,37 +45,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00286383FBEE65A2BD2CB3D7 /* Pods_vesti_ru.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C0B511EFA801E82798C2197 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FD63EDF89BD0C520EC9F4925 /* Pods-vesti.ru.debug.xcconfig */,
-				3AEA7297D8952B9CBBA63662 /* Pods-vesti.ru.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		C55934FBEF63DBDE1D3BC8C7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8FC42720F083A217B3C9E262 /* Pods_vesti_ru.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FC51668C24B4919300DAA1EE = {
 			isa = PBXGroup;
 			children = (
 				FC51669724B4919300DAA1EE /* vesti.ru */,
 				FC51669624B4919300DAA1EE /* Products */,
-				3C0B511EFA801E82798C2197 /* Pods */,
-				C55934FBEF63DBDE1D3BC8C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,11 +119,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC5166A924B4919900DAA1EE /* Build configuration list for PBXNativeTarget "vesti.ru" */;
 			buildPhases = (
-				99F8D6DBD995D2D23897D710 /* [CP] Check Pods Manifest.lock */,
 				FC51669124B4919300DAA1EE /* Sources */,
 				FC51669224B4919300DAA1EE /* Frameworks */,
 				FC51669324B4919300DAA1EE /* Resources */,
-				4B30EAE450D0571252ADABD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,48 +178,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4B30EAE450D0571252ADABD3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vesti.ru/Pods-vesti.ru-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vesti.ru/Pods-vesti.ru-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vesti.ru/Pods-vesti.ru-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99F8D6DBD995D2D23897D710 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-vesti.ru-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC51669124B4919300DAA1EE /* Sources */ = {
@@ -402,7 +334,6 @@
 		};
 		FC5166AA24B4919900DAA1EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD63EDF89BD0C520EC9F4925 /* Pods-vesti.ru.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -421,7 +352,6 @@
 		};
 		FC5166AB24B4919900DAA1EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AEA7297D8952B9CBBA63662 /* Pods-vesti.ru.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
